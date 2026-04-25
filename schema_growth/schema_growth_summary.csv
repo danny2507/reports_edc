@@ -1,7 +1,7 @@
-iter,case,relation_count,new_relation_count,reused_relation_count,new_relation_ratio,reused_relation_ratio,growth_final_top1_relations,max_new_relations_at_idx,max_growth_idx
-iter0,case1_name_only,514,362,152,0.7042801556420234,0.29571984435797666,382,4,1
-iter0,case2_name_general,502,350,152,0.6972111553784861,0.30278884462151395,387,5,7
-iter0,case3_name_detail,528,372,156,0.7045454545454546,0.29545454545454547,399,4,1
-iter0,case4_detail_strict,487,336,151,0.6899383983572895,0.31006160164271046,374,4,1
-iter0,case5_concat,496,344,152,0.6935483870967742,0.3064516129032258,393,4,48
-iter0,case6_weighted,558,400,158,0.7168458781362007,0.2831541218637993,382,5,154
+iter,case,relation_count,relation_event_count,new_relation_event_count,reused_relation_event_count,new_relation_event_ratio,reused_relation_event_ratio,final_cumulative_relations,schema_only_relation_count,max_new_relations_at_idx,max_growth_idx
+iter0,case1_name_only,514,3753,511,3242,0.13615774047428725,0.8638422595257128,511,3,6,1
+iter0,case2_name_general,502,3753,502,3251,0.13375965893951505,0.866240341060485,502,0,6,1
+iter0,case3_name_detail,528,3753,527,3226,0.14042099653610446,0.8595790034638956,527,1,6,1
+iter0,case4_detail_strict,487,3753,484,3269,0.1289634958699707,0.8710365041300293,484,3,6,1
+iter0,case5_concat,496,3753,493,3260,0.13136157740474289,0.8686384225952571,493,3,6,1
+iter0,case6_weighted,558,3753,555,3198,0.14788169464428458,0.8521183053557154,555,3,6,1
